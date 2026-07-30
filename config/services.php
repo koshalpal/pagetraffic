@@ -36,7 +36,7 @@ return [
     ],
 
     'valueserp' => [
-        'api_key' => env('VALUESERP_API_KEY'),
+        'api_key' => env('VALUESERP_API_KEY', 'AC9F01B6DADA44B894984E5B55ED48F9'),
         'base_url' => env('VALUESERP_BASE_URL', 'https://api.valueserp.com'),
     ],
 
